@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DownConvert/build/DownConvert/DownConvert.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:downsampler/build/downsampler/downsampler.xcodeproj">
+   </FileRef>
+</Workspace>

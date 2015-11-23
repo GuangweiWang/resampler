@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB4322191C03046100EA295D /* BenchmarkDownsampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB4322131C03046100EA295D /* BenchmarkDownsampler.cpp */; };
+		CB43221A1C03046100EA295D /* BicubicDownsampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB4322141C03046100EA295D /* BicubicDownsampler.cpp */; };
+		CB43221B1C03046100EA295D /* BilinearDownsampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB4322151C03046100EA295D /* BilinearDownsampler.cpp */; };
+		CB43221C1C03046100EA295D /* downsampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB4322161C03046100EA295D /* downsampler.cpp */; };
+		CB43221D1C03046100EA295D /* TapFilterDownsampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB4322171C03046100EA295D /* TapFilterDownsampler.cpp */; };
+		CB43221E1C03046100EA295D /* test_downsampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB4322181C03046100EA295D /* test_downsampler.cpp */; };
+		CB4322201C03046E00EA295D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB43221F1C03046E00EA295D /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB4322021C0303DC00EA295D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB4322041C0303DC00EA295D /* downsampler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = downsampler; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4322101C03044600EA295D /* downsampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = downsampler.h; path = ../../../inc/downsampler.h; sourceTree = "<group>"; };
+		CB4322111C03044600EA295D /* measure_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = measure_time.h; path = ../../../inc/measure_time.h; sourceTree = "<group>"; };
+		CB4322121C03044600EA295D /* my_typedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = my_typedefs.h; path = ../../../inc/my_typedefs.h; sourceTree = "<group>"; };
+		CB4322131C03046100EA295D /* BenchmarkDownsampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BenchmarkDownsampler.cpp; path = ../../../src/BenchmarkDownsampler.cpp; sourceTree = "<group>"; };
+		CB4322141C03046100EA295D /* BicubicDownsampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BicubicDownsampler.cpp; path = ../../../src/BicubicDownsampler.cpp; sourceTree = "<group>"; };
+		CB4322151C03046100EA295D /* BilinearDownsampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BilinearDownsampler.cpp; path = ../../../src/BilinearDownsampler.cpp; sourceTree = "<group>"; };
+		CB4322161C03046100EA295D /* downsampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = downsampler.cpp; path = ../../../src/downsampler.cpp; sourceTree = "<group>"; };
+		CB4322171C03046100EA295D /* TapFilterDownsampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TapFilterDownsampler.cpp; path = ../../../src/TapFilterDownsampler.cpp; sourceTree = "<group>"; };
+		CB4322181C03046100EA295D /* test_downsampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_downsampler.cpp; path = ../../../src/test_downsampler.cpp; sourceTree = "<group>"; };
+		CB43221F1C03046E00EA295D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../src/main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4322011C0303DC00EA295D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB4321FB1C0303DC00EA295D = {
+			isa = PBXGroup;
+			children = (
+				CB4322061C0303DC00EA295D /* downsampler */,
+				CB4322051C0303DC00EA295D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4322051C0303DC00EA295D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4322041C0303DC00EA295D /* downsampler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4322061C0303DC00EA295D /* downsampler */ = {
+			isa = PBXGroup;
+			children = (
+				CB43221F1C03046E00EA295D /* main.cpp */,
+				CB43220F1C03043B00EA295D /* src */,
+				CB43220E1C03043500EA295D /* inc */,
+			);
+			path = downsampler;
+			sourceTree = "<group>";
+		};
+		CB43220E1C03043500EA295D /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				CB4322101C03044600EA295D /* downsampler.h */,
+				CB4322111C03044600EA295D /* measure_time.h */,
+				CB4322121C03044600EA295D /* my_typedefs.h */,
+			);
+			name = inc;
+			sourceTree = "<group>";
+		};
+		CB43220F1C03043B00EA295D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CB4322131C03046100EA295D /* BenchmarkDownsampler.cpp */,
+				CB4322141C03046100EA295D /* BicubicDownsampler.cpp */,
+				CB4322151C03046100EA295D /* BilinearDownsampler.cpp */,
+				CB4322161C03046100EA295D /* downsampler.cpp */,
+				CB4322171C03046100EA295D /* TapFilterDownsampler.cpp */,
+				CB4322181C03046100EA295D /* test_downsampler.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4322031C0303DC00EA295D /* downsampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB43220B1C0303DC00EA295D /* Build configuration list for PBXNativeTarget "downsampler" */;
+			buildPhases = (
+				CB4322001C0303DC00EA295D /* Sources */,
+				CB4322011C0303DC00EA295D /* Frameworks */,
+				CB4322021C0303DC00EA295D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = downsampler;
+			productName = downsampler;
+			productReference = CB4322041C0303DC00EA295D /* downsampler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4321FC1C0303DC00EA295D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guangwei Wang";
+				TargetAttributes = {
+					CB4322031C0303DC00EA295D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CB4321FF1C0303DC00EA295D /* Build configuration list for PBXProject "downsampler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB4321FB1C0303DC00EA295D;
+			productRefGroup = CB4322051C0303DC00EA295D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4322031C0303DC00EA295D /* downsampler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4322001C0303DC00EA295D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB43221C1C03046100EA295D /* downsampler.cpp in Sources */,
+				CB43221B1C03046100EA295D /* BilinearDownsampler.cpp in Sources */,
+				CB43221E1C03046100EA295D /* test_downsampler.cpp in Sources */,
+				CB43221A1C03046100EA295D /* BicubicDownsampler.cpp in Sources */,
+				CB4322201C03046E00EA295D /* main.cpp in Sources */,
+				CB43221D1C03046100EA295D /* TapFilterDownsampler.cpp in Sources */,
+				CB4322191C03046100EA295D /* BenchmarkDownsampler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB4322091C0303DC00EA295D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB43220A1C0303DC00EA295D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB43220C1C0303DC00EA295D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB43220D1C0303DC00EA295D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4321FF1C0303DC00EA295D /* Build configuration list for PBXProject "downsampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4322091C0303DC00EA295D /* Debug */,
+				CB43220A1C0303DC00EA295D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB43220B1C0303DC00EA295D /* Build configuration list for PBXNativeTarget "downsampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB43220C1C0303DC00EA295D /* Debug */,
+				CB43220D1C0303DC00EA295D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB4321FC1C0303DC00EA295D /* Project object */;
+}
